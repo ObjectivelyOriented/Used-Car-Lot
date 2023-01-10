@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <script src="script.js"></script>
+  <link href="listings_styles.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+  <title>Zoom Zoom Listings</title>
+  <ul class="navbar">
+    <li class="buttons" id="title"><a href="index.html"> UsedZoomZooms</a </li>
+    <li class="buttons"><a href="./listings.html">Listings</a></li>
+    <li class="buttons"><a href="index.html#aboutUS">About</a></li>
+    <li class="buttons"><a href="index.html#contact">Contact</a></li>
+    <li class="buttons"><a href="index.html#estimator">Loan Estimator</a></li>
+
+
+  </ul>
+  <!--   <nav>
+    <a class='link' href="./listings.html">Listings</a>
+    <a class='link' href="#about">Lost</a>
+    <a class='link' href="#contact">Lost</a>
+  </nav> -->
+
+  <!--   <ul class = "navbar">
+      <li class = "navbuttons" id="title"><a href="index.html"> UsedZoomZooms</a </li>
+    <li class="navbuttons"><a href="./listings.html">Listings</a></li>
+        <li class="navbuttons"><a href="#about">About</a></li>
+      <li class="navbuttons"><a href="#contact">Contact</a></li>
+    
+      
+    </ul> -->
+  <h2 class="ltn_title">LISTINGS</h2>
+  <div id="myBtnContainer" class="'filters">
+    <ul>
+      <li>
+        <button class="btn active" onclick="filterSelection('all')">
+          All
+        </button>
+      </li>
+      <li>
+        <button class="btn" onclick="filterSelection('pickup')">
+          Pickups
+        </button>
+      </li>
+      <li>
+        <button class="btn" onclick="filterSelection('sedan')">
+          Sedans
+        </button>
+      </li>
+      <li>
+        <button class="btn" onclick="filterSelection('suv')">
+          SUVs
+        </button>
+      </li>
+      <li>
+        <button class="btn" onclick="filterSelection('minivan')">Minivans</button>
+      </li>
+      <li>
+        <button class="btn" onclick="filterSelection('coupe')">Coupes</button>
+      </li>
+    </ul>
+  </div>
+  <div class="results">
+
+    <!-- ALL SEDANS -->
+    <div class="sedan">
+      <div class="filterDiv sedan">
+        <div class="car">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/2017_Toyota_Camry_G_rear.jpg/800px-2017_Toyota_Camry_G_rear.jpg?20170810103754" />
+          <p class="img_desc">
+            Name: Toyota Camry<br />
+            Price: $32,265<br />
+            Year: 2017<br />
+
+          </p>
+        </div>
+        </a>
+      </div>
+
+      <div class="filterDiv sedan">
+        <a href="">
+          <div class="car">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Lexus_LS500h_For_Guangzhou_Auto_Show_2020.jpg/800px-Lexus_LS500h_For_Guangzhou_Auto_Show_2020.jpg?20201122145523" />
+
+            <p class="img_desc">
+              Name: Lexus IS 500 F Sport<br />
+              Price: $50,969<br />
+              Year: 2018<br />
+            </p>
+          </div>
+        </a>
+      </div>
+
+      <div class="filterDiv sedan">
+        <a href="">
+          <div class="car">
+            <img src="/listing images/honda civic.jpg" />
+            <p class="img_desc">
+              Name: Honda Civic<br />
+              Price: $11,889<br />
+              Year: 2016<br />
+            </p>
+          </div>
+        </a>
+      </div>
+
+      <div class="filterDiv sedan">
+        <a href="">
+          <div class="car">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/2021_Honda_Accord_Sport_2.0T%2C_front_right%2C_09-06-2022.jpg/800px-2021_Honda_Accord_Sport_2.0T%2C_front_right%2C_09-06-2022.jpg?20220906184737" />
+            <p class="img_desc">
+              Name: Honda Accord Sport<br />
+              Price: $33,349<br />
+              Year: 2021<br />
+            </p>
+          </div>
+        </a>
+      </div>
+
+      <div class="filterDiv sedan">
+        <a href="">
+          <div class="car">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ford_Fiesta_1.6_SES_2013_%2839539299352%29.jpg/800px-Ford_Fiesta_1.6_SES_2013_%2839539299352%29.jpg?20190129000800" />
+            <p class="img_desc">
+              Name: Ford Fiesta SE<br />
+              Price: $14,599<br />
+              Year: 2013<br />
+            </p>
+          </div>
+        </a>
+      </div>
+
+      <div class="filterDiv sedan">
+        <a href="">
+          <div class="car">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Mercedes-Benz_W206_IMG_5254.jpg/800px-Mercedes-Benz_W206_IMG_5254.jpg?20210829155747" />
+            <p class="img_desc">
+              Name: Mercades Benz A Class<br />
+              Price: $34,700<br />
+              Year: 2021<br />
+            </p>
+          </div>
+        </a>
+      </div>
+
+
+      <!-- ALL PICKUPS -->
+
+
+      <div class="filterDiv pickup">
+        <a href="">
+          <div class="car">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/2014_Chevrolet_Silverado_1500_LTZ_Double_Cab_5.3L_Hagerty_parking_lot%2C_6.1.19.jpg/800px-2014_Chevrolet_Silverado_1500_LTZ_Double_Cab_5.3L_Hagerty_parking_lot%2C_6.1.19.jpg?20190605214030" />
+            <p class="img_desc">
+              Name: Chevrolet Silverado 1500<br />
+              Price: $27,895<br />
+              Year: 2019<br />
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="filterDiv pickup">
+        <a href="">
+          <div class="car">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/2016_Toyota_Tacoma_.jpg/800px-2016_Toyota_Tacoma_.jpg?20160122024251" />
+            <p class="img_desc">
+              Name: Toyota Tacoma SR<br />
+              Price: $28,775<br />
+              Year: 2021<br />
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="filterDiv pickup">
+        <a href="">
+          <div class="car">
+            <img src="/listing images/gmc.jpg" />
+            <p class="img_desc">
+              Name: GMC Sierra 1500<br />
+              Price: $30,495<br />
+              Year: 2018<br />
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="filterDiv pickup">
+        <a href="">
+          <div class="car">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Ford_F-150_front_view_%28fourteenth_generation%29.jpg/800px-Ford_F-150_front_view_%28fourteenth_generation%29.jpg?20200805102734" />
+            <p class="img_desc">
+              Name: Ford F-150<br />
+              Price: $30,440<br />
+              Year: 2020<br />
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="filterDiv pickup">
+        <a href="">
+          <div class="car">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/2017_Ford_F-350_Crew_Cab_front_4.28.18.jpg/800px-2017_Ford_F-350_Crew_Cab_front_4.28.18.jpg?20180512205640" />
+            <p class="img_desc">
+              Name: Ford Super Duty<br />
+              Price: $33,830<br />
+              Year: 2017<br />
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="filterDiv pickup">
+        <a href="">
+          <div class="car">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Chevrolet_Avalanche_Z71_Black_Diamond_Last_Edition_2013.jpg/800px-Chevrolet_Avalanche_Z71_Black_Diamond_Last_Edition_2013.jpg?20120907222122" />
+            <p class="img_desc">
+              Name: Chevrolet Avalanche<br />
+              Price: $48,880<br />
+              Year: 2013<br />
+            </p>
+          </div>
+        </a>
+      </div>
+
+
+      <!-- ALL SUVS -->
+
+
+      <div class="filterDiv pickup">
+        <a href="">
+          <div class="car">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/2022_Ford_Maverick_XLT_AWD%2C_Front_Right%2C_10-10-2021.jpg/800px-2022_Ford_Maverick_XLT_AWD%2C_Front_Right%2C_10-10-2021.jpg?20211010171526" />
+            <p class="img_desc">
+              Name: Ford Maverick<br />
+              Price: $33,830<br />
+              Year: 2023<br />
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="filterDiv suv">
+        <a href="">
+          <div class="car">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/2018_Chevrolet_Equinox_front_1.22.19.jpg/800px-2018_Chevrolet_Equinox_front_1.22.19.jpg?20190409001643" />
+            <p class="img_desc">
+              Name: Chevrlot Equinox<br />
+              Price: $32,583<br />
+              Year: 2015<br />
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="filterDiv suv">
+        <a href="">
+          <div class="car">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Subaru_LEGACY_OUTBACK_%28BS9%29_front.JPG/799px-Subaru_LEGACY_OUTBACK_%28BS9%29_front.JPG?20141025074238" />
+            <p class="img_desc">
+              Name: Subaru Outback<br />
+              Price: $16,988<br />
+              Year: 2014<br />
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="filterDiv suv">
+        <a href="">
+          <div class="car">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/2013_Mazda_CX-5_Grand_Touring_--_02-24-2012.jpg/800px-2013_Mazda_CX-5_Grand_Touring_--_02-24-2012.jpg?20120305021142">
+            <p class='img_desc'>
+              Name: Mazda CX-5 Grand Touring<br />
+              Price: $25,688<br />
+              Year: 2013<br />
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="filterDiv suv">
+        <a href="">
+          <div class="car">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/2016_Jeep_Grand_Cherokee_WK2.jpg/800px-2016_Jeep_Grand_Cherokee_WK2.jpg?20170223212352" />
+            <p class="img_desc">
+              Name: Jeep Cherokee<br />
+              Price: $17,693<br />
+              Year: 2016<br />
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="filterDiv suv">
+        <a href="">
+          <div class="car">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ford_Escape_S_2.5_2013_%2812447171074%29.jpg/800px-Ford_Escape_S_2.5_2013_%2812447171074%29.jpg?20140807083003" />
+            <p class="img_desc">
+              Name: Ford Escape S<br />
+              Price: $15,982<br />
+              Year: 2014<br />
+            </p>
+          </div>
+        </a>
+      </div>
+
+
+      <!-- ALL MINIVANS -->
+
+
+      <div class="filterDiv minivan">
+        <a href="">
+          <div class="car">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Nissan_Murano_SL_2006_%2814711050061%29.jpg/800px-Nissan_Murano_SL_2006_%2814711050061%29.jpg?20140807074846" />
+            <p class="img_desc">
+              Name: Nissan Murano SL<br />
+              Price: $28,555<br />
+              Year: 2014<br />
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="filterDiv minivan">
+        <a href="">
+          <div class="car">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/2013_Honda_Odyssey_EX%2C_Front_Right%2C_10-16-2020.jpg/800px-2013_Honda_Odyssey_EX%2C_Front_Right%2C_10-16-2020.jpg?20201020031754" />
+            <p class="img_desc">
+              Name: Honda Odyssey<br />
+              Price: $20,915<br />
+              Year: 2013<br />
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="filterDiv minivan">
+        <a href="">
+          <div class="car">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/2011_Nissan_Quest_SL_--_04-22-2011.jpg/800px-2011_Nissan_Quest_SL_--_04-22-2011.jpg?20110423125527" />
+            <p class="img_desc">
+              Name: Nissan Quest<br />
+              Price: $34,855<br />
+              Year: 2011<br />
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="filterDiv minivan">
+        <a href="">
+          <div class="car">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/0_Kia_Carnival_%28KA4%29.jpg/800px-0_Kia_Carnival_%28KA4%29.jpg?20220822122048" />
+            <p class="img_desc">
+              Name: Kia Carnival<br />
+              Price: $43,896<br />
+              Year: 2022<br />
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="filterDiv minivan">
+        <a href="">
+          <div class="car">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/2018_Ford_Transit_Connect_facelift_Front.jpg/800px-2018_Ford_Transit_Connect_facelift_Front.jpg?20181104033312" />
+            <p class="img_desc">
+              Name: Ford Transit ConnectXL<br />
+              Price: $28,783<br />
+              Year: 2018<br />
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="filterDiv minivan">
+        <a href="">
+          <div class="car">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/2017_Chrysler_Pacifica_Touring_L_Plus_finished_in_Jazz_Blue_Pearlcoat_-_Maryland.jpg/800px-2017_Chrysler_Pacifica_Touring_L_Plus_finished_in_Jazz_Blue_Pearlcoat_-_Maryland.jpg?20211115050633" />
+            <p class="img_desc">
+              Name: Chrysler Pacifica Touring L<br />
+              Price: $27,564<br />
+              Year: 2017<br />
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="filterDiv sedan">
+        <a href="">
+          <div class="car">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/OSAKA_AUTO_MESSE_2015_%2855%29_-_Subaru_BRZ_tS_CONCEPT.JPG/800px-OSAKA_AUTO_MESSE_2015_%2855%29_-_Subaru_BRZ_tS_CONCEPT.JPG?20150222152352" />
+            <p class="img_desc">
+              Name: Subaru BRZ TS<br />
+              Price: $33,985<br />
+              Year: 2018<br />
+            </p>
+          </div>
+        </a>
+      </div>
+
+
+      <!-- ALL COUPES -->
+
+
+      <div class="filterDiv coupe">
+        <a href="">
+          <div class="car">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Lexus_RC_F.jpg/800px-Lexus_RC_F.jpg?20220107215829" />
+            <p class="img_desc">
+              Name: Lexus RC 350<br />
+              Price: $49,122<br />
+              Year: 2021<br />
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="filterDiv coupe">
+        <a href="">
+          <div class="car">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/MiNi_Cooper_S_2014_%2814322599217%29.jpg/800px-MiNi_Cooper_S_2014_%2814322599217%29.jpg?20140807075500" />
+            <p class="img_desc">
+              Name: Mini Cooper S<br />
+              Price: $22,289<br />
+              Year: 2021<br />
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="filterDiv coupe">
+        <a href="">
+          <div class="car">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/BMW_428i_Cabriolet_M_Sport_%2813902131273%29.jpg/800px-BMW_428i_Cabriolet_M_Sport_%2813902131273%29.jpg?20150109054033" />
+            <p class="img_desc">
+              Name: BMW 428 XI<br />
+              Price: $12,782<br />
+              Year: 2014<br />
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="filterDiv coupe">
+        <a href="">
+          <div class="car">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/2018_Jaguar_XF_S_Sportbrake%2C_Greenwich_CT.jpg/800px-2018_Jaguar_XF_S_Sportbrake%2C_Greenwich_CT.jpg?20180607142949" />
+            <p class="img_desc">
+              Name: Jaguar F-Type 296HP<br />
+              Price: $35,893<br />
+              Year: 2018<br />
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="filterDiv coupe">
+        <a href="">
+          <div class="car">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/2017_Chevrolet_Camaro_LT_Coupe%2C_front_left%2C_09-10-2022.jpg/799px-2017_Chevrolet_Camaro_LT_Coupe%2C_front_left%2C_09-10-2022.jpg?20220910200149" />
+            <p class="img_desc">
+              Name: Chevrolet Camaro LT<br />
+              Price: $23,892<br />
+              Year: 2017<br />
+            </p>
+          </div>
+        </a>
+      </div>
+
+
+      <script>
+        filterSelection("all");
+        function filterSelection(c) {
+          var x, i;
+          x = document.getElementsByClassName("filterDiv");
+          if (c == "all") c = "";
+          // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+          for (i = 0; i < x.length; i++) {
+            w3RemoveClass(x[i], "show");
+            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+          }
+        }
+
+        // Show filtered elements
+        function w3AddClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {
+              element.className += " " + arr2[i];
+            }
+          }
+        }
+
+        // Hide elements that are not selected + original code
+        function w3RemoveClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+              arr1.splice(arr1.indexOf(arr2[i]), 1);
+            }
+          }
+          element.className = arr1.join(" ");
+        }
+
+        // Add active class to the current control button (highlight it)
+        var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function () {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+          });
+        }
+      </script>
+</body>
+
+</html>

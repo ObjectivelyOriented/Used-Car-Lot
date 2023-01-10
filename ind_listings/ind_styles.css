@@ -1,0 +1,140 @@
+@media only screen and (max-width: 2500px){
+  .side {
+    width: 400px;
+    height: 300px;
+  }
+
+  .rear {
+    width: 400px;
+    height: 300px;
+  }
+
+  .interior {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #ebebeb;
+  font-family: "Optima";
+}
+
+.side {
+  width: 500px;
+  height: 400px;
+  display: inline-block;
+  padding: 20px 10px 0 0;
+  border-radius: 50px;
+}
+
+.rear {
+  width: 500px;
+  height: 400px;
+  display: inline-block;
+  padding: 20px 10px 0 10px;
+  border-radius: 50px;
+}
+
+.interior {
+  margin: 0 auto;
+  width: 500px;
+  height: 400px;
+  display: block;
+  padding: 20px 0 0 10px;
+  border-radius: 50px;
+}
+
+.main {
+  margin: 0 auto;
+  margin-left: 20px;
+  width: 1000px;
+  height: 650px;
+  display: block;
+  border-radius: 100px;
+  padding-top: 20px;
+  position: absolute;
+}
+
+.car_name {
+  text-align: center;
+  display: block;
+  padding: 20px 0 20px 0;
+  background-color: #4062bb;
+  color: white;
+}
+
+.extra_photos {
+  width: fit-content;
+  display: block;
+  margin: 0 auto;
+}
+
+.stats {
+  
+  font-size: larger;
+  margin: 10%;
+  
+
+}
+.child{
+      flex:1;
+    font-size: larger;
+  margin: 10%;
+}
+.container{
+  display: flex;
+}
+.stats p {
+  display: inline-block;
+  padding: 15px 100px;
+  font-size: larger;
+  line-height: 1.75em;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Garamond", serif; 
+  font-size: 125%;
+  font-weight: bold;
+  overflow: hidden;
+  background-color:#435C9D;
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index:2;
+}
+
+
+.buttons {
+  float: left;
+}
+
+.buttons a {
+  display: block;
+  background-color: #435C9D;
+  color: #eeeded;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.buttons a:hover {
+  background-color: #345098;
+  color: white;
+}
+
+.buttons {
+  text-align: right;
+}
+
+.types {
+  margin-right: 100px;
+  display: inline-block;
+  position: absolute;
+}
